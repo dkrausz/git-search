@@ -1,6 +1,6 @@
 
 
-function buttons(){
+function redirectToHomePage(){
     const button = document.querySelector("button");
 
     button.addEventListener("click",()=>{
@@ -8,4 +8,4 @@ function buttons(){
     });
 }
 
-buttons();
+redirectToHomePage();
